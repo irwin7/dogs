@@ -429,6 +429,10 @@ background-color: #F3E6EA;
 .testimonials{
   margin-top: 120px;
 }
+.testi-list{
+  width: 555px;
+  margin: 0 auto;
+}
 .testi-item{
   width: 555px;
   height: 272px;
@@ -438,7 +442,22 @@ background-color: #F3E6EA;
   text-align: center;
   padding: 30px 30px 21px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.testi-img{
+  width: 30px;
+  height: 30px;
+  margin:  0 auto;
+}
+.testi-stars{
+  width: 80px;
+  height: 15px;
+  margin:  0 auto;
+}
+
 .testi-item::before{
   content: "";
   position: absolute;

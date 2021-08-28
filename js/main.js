@@ -1,4 +1,6 @@
-new Splide( '.testi-list', {
-	direction: 'ttb',
-	height   : '10rem',
-} ).mount();
+$('.testi-list').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+	vertical:true,
+});
